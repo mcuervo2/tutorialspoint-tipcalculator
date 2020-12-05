@@ -12,3 +12,6 @@
 let a =  ('hello');
 let b =  ('hello');
 console.log(a===b);
+a = new String('hello');
+b = new String('hello');
+console.log(a===b);
