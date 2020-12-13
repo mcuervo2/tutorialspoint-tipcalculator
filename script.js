@@ -23,6 +23,30 @@
 // y = y.replace(/this/ig, 'that')
 // console.log(y)
 
-let x = 'this is an example string';
-let y = x.charAt(5);
-console.log(y); //output i
+// let x = 'this is an example string';
+// let y = x.charAt(5);
+// console.log(y); //output i
+
+
+
+// for (i = 5; i >= 0; i--) {
+    
+// console.log(i)
+
+// }
+
+// let array1 = [2,6,4,9,3,7];
+// let sum = 0;
+// for (let i=0; i<6;i++) {
+// sum += array1[i];
+// }
+// console.log('sum is ' + sum);
+
+// let a = 10;
+// let array1 = [2,6,4,a]
+
+// console.log(array1)
+
+
+let d = new Date();
+console.log(d);
