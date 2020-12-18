@@ -48,5 +48,30 @@
 // console.log(array1)
 
 
-let d = new Date();
-console.log(d);
+// let d = new Date();
+// console.log(d);
+
+
+// let count = 0;
+// function countVal() {
+//     console.log(++count);
+// }
+// let counting = setInterval(countVal,2000);
+
+// setTimeout(()=>clearInterval(counting),10000)
+
+
+
+// // let count = 0;
+// let tr = setInterval(() => console.log(++count),2000);
+// // console.log(tr);
+// setTimeout(() => clearInterval(tr),10000);
+
+
+let x = document.getElementById('link');
+console.log(link)
+x.href = "https://bing.com";
+// console.log(x);
+let string = "this is my first javaScript Regex.JavaScript javascript"
+let rex =/JavaScript/gi;
+document.write(string.replace(rex,"Typestcript"));
