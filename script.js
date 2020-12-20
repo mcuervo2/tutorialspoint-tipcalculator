@@ -67,11 +67,15 @@
 // // console.log(tr);
 // setTimeout(() => clearInterval(tr),10000);
 
+function mulNum(num1 = 2, num2 = 3) {
+    let mul = num1 * num2;
+    console.log(mul);
+    return mul;
+}
 
-let x = document.getElementById('link');
-console.log(link)
-x.href = "https://bing.com";
-// console.log(x);
-let string = "this is my first javaScript Regex.JavaScript javascript"
-let rex =/JavaScript/gi;
-document.write(string.replace(rex,"Typestcript"));
+function addNum(num1, num2 = mulNum(undefined,8)) {
+    let sum = num1 + num2;
+    alert(sum);
+}
+
+addNum(5);
